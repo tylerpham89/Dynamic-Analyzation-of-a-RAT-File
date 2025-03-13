@@ -1,12 +1,12 @@
+# Dynamic Analysis of a RAT file
+
 -   Go to hybrid analysis website
 
     -   Upload the first RAT file
 
-    -   ![](images/media/image1.png){width="5.691421697287839in"
-        height="3.174061679790026in"}
+    -   ![](images/media/image1.png)
 
-    -   ![](images/media/image5.png){width="5.567708880139983in"
-        height="4.0954779090113735in"}
+    -   ![](images/media/image5.png)
 
         -   Based on these observations, hybrid analysis marks this file
             as malicious with a maximum threat score of 100/100
@@ -24,22 +24,17 @@
 
     -   Lets unzip it to further analyze the malware
 
-    -   ![](images/media/image6.png){width="5.537596237970254in"
-        height="2.953384733158355in"}
+    -   ![](images/media/image6.png)
 
-    -   ![](images/media/image3.png){width="5.54461832895888in"
-        height="3.9363232720909886in"}
+    -   ![](images/media/image3.png)
 
     -   
 
-    -   ![](images/media/image4.png){width="5.161458880139983in"
-        height="3.3334416010498686in"}
+    -   ![](images/media/image4.png)
 
-    -   ![](images/media/image2.png){width="4.661975065616798in"
-        height="3.6160192475940507in"}
+    -   ![](images/media/image2.png)
 
-    -   ![](images/media/image7.png){width="4.932292213473316in"
-        height="3.201246719160105in"}
+    -   ![](images/media/image7.png)
 
         -   We can see that for all versions of windows, it is labeled
             as Tedy.Generic with many indicators. Tedy.Generic indicates
@@ -108,7 +103,7 @@
 
             -   Hiding execution traces
 
-**Question 1**
+**Summary**
 
 several indicators suggest that this malware is a Remote Access Trojan
 (RAT):
@@ -133,7 +128,7 @@ several indicators suggest that this malware is a Remote Access Trojan
     cryptographic machine GUIDs, and IE security settings, which can be
     used for reconnaissance and fingerprinting of the victim's system.
 
-**Question 2**
+**Prevention**
 
 -   Use endpoint detection and response
 
